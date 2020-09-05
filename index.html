@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiP Player (Picture in Picture)</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"><h3>This application allows you to use any of your browser tabs, ongoing application window or your entire screen(s) in a windowed mode (Picture in Picture mode). <br><center><blockquote>Press the start button to continue.</blockquote></center></h3></div>
+    <!-- Video -->
+    <video id="video" controls height="360" width="640" hidden></video>
+    <div class="button-container">
+        <button id="button">START</button>
+    </div>
+    <div id="error" class="error-container"></div>
+    <div class="footer">© 2020 by <a href="https://heisenbug.cf/" target="_blank" style="text-decoration: underline; color: white;">Pujan Bhuva</a></div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
